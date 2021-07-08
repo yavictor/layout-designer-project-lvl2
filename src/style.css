@@ -16,6 +16,7 @@
 
 h1,
 h2 {
+  margin: 0 auto;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -26,6 +27,10 @@ h1 {
 
 h2 {
   font-size: 38px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 img {
@@ -67,11 +72,77 @@ img {
 }
 
 .btn {
+  width: 100%;
   padding: 20px 30px;
+  border: 1px solid #fff;
   border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .btn-green {
   background: #34C176;
+}
+
+.page-pricing {
+  padding-top: 100px;
+  background: #08020d;
+}
+.page-pricing .bg {
+  background-position: center;
+  background-size: cover;
+}
+.page-pricing .bg-free {
+  background-image: url("images/subscribe_1.png");
+}
+.page-pricing .bg-standart {
+  background-image: url("images/subscribe_2.png");
+}
+.page-pricing .bg-premium {
+  background-image: url("images/subscribe_3.png");
+}
+.page-pricing .title {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.page-pricing .items-container {
+  display: flex;
+  justify-content: space-between;
+}
+.page-pricing .items-container .pricing-item {
+  height: 615px;
+  width: 369px;
+  padding: 1.5rem 1.5rem 64px;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-pricing .items-container .pricing-item-title {
+  text-transform: uppercase;
+}
+.page-pricing .items-container .pricing-item .pricing-value {
+  margin-top: 200px;
+  font-size: 64px;
+  line-height: 100%;
+}
+.page-pricing .items-container .pricing-item .pricing-value .currency {
+  font-size: 32px;
+  line-height: 1em;
+}
+.page-pricing .items-container .pricing-item .checkout {
+  display: block;
+  margin-top: 40px;
+  text-decoration: none;
+}
+.page-pricing .items-container .pricing-item .pricing-footer {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+.page-pricing-footer {
+  text-align: center;
+  margin-top: 43px;
 }
 
 /*# sourceMappingURL=style.css.map */

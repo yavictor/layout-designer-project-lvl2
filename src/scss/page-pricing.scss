@@ -1,0 +1,64 @@
+.page-pricing {
+  padding-top: 100px;
+  background: $main-bg-color;
+  .bg {
+    background-position: center;
+    background-size: cover;
+    &-free {
+      background-image: url('images/subscribe_1.png');
+    }
+    &-standart {
+      background-image: url('images/subscribe_2.png');
+    }
+    &-premium {
+      background-image: url('images/subscribe_3.png');
+    }
+  }
+  .title {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  .items-container {
+    display: flex;
+    justify-content: space-between;
+    
+    .pricing-item {
+      height: 615px;
+      width: 369px;
+      padding: 1.5rem 1.5rem 64px;
+      border-radius: 1rem;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &-title {
+        text-transform: uppercase;
+
+      }
+      .pricing-value {
+        margin-top: 200px;
+        font-size: 64px;
+        line-height: 100%;
+        .currency {
+          font-size: 32px;
+          line-height: 1em;
+        }
+      }
+      .checkout {
+        display: block;
+        margin-top: 40px;
+        text-decoration: none;
+      }
+      .pricing-footer {
+        text-align: center;
+        margin-top: 64px;
+        font-size: 12.8px;
+        line-height: 150%;
+      }
+    }
+  }
+  &-footer {
+    text-align: center;
+    margin-top: 43px;
+  }
+}
