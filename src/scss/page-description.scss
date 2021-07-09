@@ -3,16 +3,46 @@
   background-image: url('images/banner.png');
   background-position: center;
   background-size: cover;
+  color: $section-text-color;
+  .title,
+  .subtitle {
+    text-align: center;
+  }
+  .form-title {
+    margin-top: 31px;
+    text-align: center;
+  }
   .form {
     max-width: 570px;
-    // opacity: 0;
-    input {
-      min-width: 270px;
-      min-height: 50px;
-      padding-left: 20px;
-      margin-bottom: 1.5rem;
-      border: solid 2px $main-text-color;
-      border-radius: 3px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      input {
+        min-width: 270px;
+        min-height: 50px;
+        padding-left: 20px;
+        margin-top: 17px;
+        margin-bottom: 1.5rem;
+        border: solid 2px $main-text-color;
+        border-radius: 3px;
+        background: transparent;
+        font-family: Arial;
+        font-size: 13.3px;
+        line-height: 15px;
+      }
+    }
+
+  }
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+      input {
+        width: 100%;
+      }
     }
   }
 }

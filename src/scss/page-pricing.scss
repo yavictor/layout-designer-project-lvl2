@@ -1,6 +1,7 @@
 .page-pricing {
   padding-top: 100px;
   background: $main-bg-color;
+  color: $section-text-color;
   .bg {
     background-position: center;
     background-size: cover;
@@ -60,5 +61,15 @@
   &-footer {
     text-align: center;
     margin-top: 43px;
+  }
+
+  @media (max-width: 768px) {
+    .items-container {
+      flex-direction: column;
+      align-items: center;
+      .pricing-item {
+        margin-bottom: 27px;
+      }
+    }
   }
 }

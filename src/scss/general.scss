@@ -10,6 +10,10 @@
   // background-color: $main-bg-color;
 }
 
+body {
+  position: relative;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
