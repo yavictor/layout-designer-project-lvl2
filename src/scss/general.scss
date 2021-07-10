@@ -19,6 +19,11 @@ body {
   margin: 0 auto;
 }
 
+section {
+  background: $main-bg-color;
+  color: $section-text-color;
+}
+
 h1,
 h2 {
   margin: 0 auto;

@@ -18,6 +18,11 @@ body {
   margin: 0 auto;
 }
 
+section {
+  background: #08020d;
+  color: #fff;
+}
+
 h1,
 h2 {
   margin: 0 auto;
@@ -181,6 +186,7 @@ img {
   border-radius: 5px;
   text-align: center;
   text-transform: upercase;
+  text-decoration: none;
 }
 .btn-green {
   background: #34C176;
@@ -188,8 +194,6 @@ img {
 
 .page-pricing {
   padding-top: 100px;
-  background: #08020d;
-  color: #fff;
 }
 .page-pricing .bg {
   background-position: center;
@@ -256,6 +260,61 @@ img {
   .page-pricing .items-container .pricing-item {
     margin-bottom: 27px;
   }
+}
+
+.page-news {
+  padding-top: 100px;
+}
+.page-news .title {
+  margin-bottom: 48px;
+  text-align: center;
+}
+.page-news .first {
+  margin-bottom: 65px;
+}
+.page-news .news-item {
+  display: flex;
+  justify-content: space-between;
+}
+.page-news .news-item .artist-image,
+.page-news .news-item .text-container {
+  width: 575px;
+}
+.page-news .news-item .news-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.page-news .news-item .news-footer {
+  margin-top: 24px;
+}
+.page-news .news-item .news-footer .news-author {
+  width: 186px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.page-news .news-item .news-footer .news-author .avatar {
+  width: 19px;
+  height: 19px;
+}
+.page-news .news-item .news-footer .news-author .source {
+  margin: 0 16px;
+  color: #f89202;
+  font-size: 12px;
+}
+.page-news .news-item .news-footer .news-author .date {
+  font-size: 12px;
+}
+.page-news .news-item .btn {
+  display: block;
+  width: 135px;
+  height: 53px;
+  padding: 16px 29px;
+  margin-top: 64px;
+  font-size: 12.8px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */
