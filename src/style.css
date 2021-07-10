@@ -19,8 +19,12 @@ body {
 }
 
 section {
+  padding-top: 100px;
   background: #08020d;
   color: #fff;
+}
+section .title {
+  text-align: center;
 }
 
 h1,
@@ -192,9 +196,6 @@ img {
   background: #34C176;
 }
 
-.page-pricing {
-  padding-top: 100px;
-}
 .page-pricing .bg {
   background-position: center;
   background-size: cover;
@@ -262,9 +263,6 @@ img {
   }
 }
 
-.page-news {
-  padding-top: 100px;
-}
 .page-news .title {
   margin-bottom: 48px;
   text-align: center;
@@ -315,6 +313,42 @@ img {
   margin-top: 64px;
   font-size: 12.8px;
   text-transform: uppercase;
+}
+
+.page-app .about-app {
+  margin-top: 48px;
+  display: flex;
+}
+.page-app .text-content {
+  flex: 1;
+}
+.page-app .text-content .proposal {
+  margin-bottom: 16px;
+}
+.page-app .text-content .download-btn {
+  display: block;
+  width: 131px;
+  height: 53px;
+  padding: 16px 40px;
+  background: #95390C;
+  border: none;
+  border-radius: 32px;
+  font-size: 12.8px;
+}
+.page-app .image {
+  text-align: center;
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .page-app .about-app {
+    flex-direction: column;
+  }
+  .page-app .about-app .text-content {
+    order: 1;
+  }
+  .page-app .about-app .image {
+    order: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

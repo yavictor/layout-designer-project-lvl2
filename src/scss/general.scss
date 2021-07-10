@@ -20,8 +20,12 @@ body {
 }
 
 section {
+  padding-top: 100px;
   background: $main-bg-color;
   color: $section-text-color;
+  .title {
+    text-align: center;
+  }
 }
 
 h1,
