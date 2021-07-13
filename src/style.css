@@ -240,6 +240,63 @@ img {
   }
 }
 
+.morten {
+  background-image: url("images/Morten Harket.png");
+}
+.morten .title {
+  text-align: start;
+  margin-bottom: 16px;
+}
+.morten .subscribers {
+  margin-bottom: 48px;
+}
+.morten .buttons-container {
+  display: flex;
+}
+.morten .buttons-container .btn {
+  position: relative;
+  width: 200px;
+  height: 62px;
+  padding: 20px 30px;
+  border-radius: 0;
+  border: none;
+}
+.morten .buttons-container .img {
+  position: absolute;
+  left: 32px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+}
+.morten .buttons-container .img svg {
+  fill: #fff;
+}
+.morten .buttons-container .text {
+  position: absolute;
+  left: 66px;
+  top: 20px;
+  font-size: 12.8px;
+  text-transform: uppercase;
+}
+.morten .buttons-container .btn-mix {
+  background: #5328f1;
+  margin-right: 24px;
+}
+.morten .buttons-container .btn-fav {
+  background: #95390c;
+}
+@media (max-width: 768px) {
+  .morten .subscribers {
+    font-size: 16px;
+  }
+  .morten .buttons-container {
+    flex-direction: column;
+  }
+  .morten .buttons-container .btn-mix {
+    margin-bottom: 24px;
+  }
+}
+
 .btn {
   width: 100%;
   padding: 20px 30px;

@@ -34,14 +34,73 @@
         line-height: 15px;
       }
     }
-
   }
+
   @media (max-width: 768px) {
     .flex-container {
       flex-direction: column;
       align-items: center;
       input {
         width: 100%;
+      }
+    }
+  }
+}
+
+.morten {
+  background-image: url('images/Morten Harket.png');
+  .title {
+      text-align: start;
+      margin-bottom: 16px;
+  }
+  .subscribers {
+    margin-bottom: 48px;
+  }
+  .buttons-container {
+    display: flex;
+
+    .btn {
+      position: relative;
+      width: 200px;
+      height: 62px;
+      padding: 20px 30px;
+      border-radius: 0;
+      border: none;
+    }
+    .img {
+      position: absolute;
+      left: 32px;
+      top: 20px;
+      width: 20px;
+      height: 20px;
+      svg {
+        fill: $white-color;
+      }
+    }
+    .text {
+      position: absolute;
+      left: 66px;
+      top: 20px;
+      font-size: 12.8px;
+      text-transform: uppercase;
+    }
+    .btn-mix {
+      background: $purple-btn;
+      margin-right: 24px;
+    }
+    .btn-fav {
+      background: $red-btn;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .subscribers {
+      font-size: 16px;
+    }
+    .buttons-container {
+      flex-direction: column;
+      .btn-mix {
+        margin-bottom: 24px;
       }
     }
   }
