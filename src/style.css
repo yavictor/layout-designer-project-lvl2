@@ -531,4 +531,67 @@ img {
   }
 }
 
+.page-discography .title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.page-discography .discography-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+.page-discography .discography-container img {
+  width: 250px;
+  height: 250px;
+}
+.page-discography .discography-container .item-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.page-discography .discography-container .item-year {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .page-discography img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
+.page-similar {
+  padding-bottom: 100px;
+}
+.page-similar .title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 48px;
+}
+.page-similar .artists-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+.page-similar .artists-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.page-similar .artists-container .discography-info {
+  text-align: center;
+}
+.page-similar .artists-container .discography-info .item-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .page-similar img {
+    width: 137px;
+    height: 137px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
