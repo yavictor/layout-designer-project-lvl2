@@ -1,37 +1,42 @@
 .page-description {
   padding: 200px 0;
+  color: $section-text-color;
   background-image: url('images/banner.png');
   background-position: center;
   background-size: cover;
-  color: $section-text-color;
+
   .title,
   .subtitle {
     text-align: center;
   }
+
   .form-title {
     margin-top: 31px;
     text-align: center;
   }
+
   .form {
     max-width: 570px;
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
+
     .flex-container {
       display: flex;
       justify-content: space-between;
+
       input {
         min-width: 270px;
         min-height: 50px;
-        padding-left: 20px;
         margin-top: 17px;
         margin-bottom: 1.5rem;
+        padding-left: 20px;
+        font-size: 13.3px;
+        font-family: Arial, sans-serif;
+        line-height: 15px;
+        background: transparent;
         border: solid 2px $main-text-color;
         border-radius: 3px;
-        background: transparent;
-        font-family: Arial;
-        font-size: 13.3px;
-        line-height: 15px;
       }
     }
   }
@@ -40,6 +45,7 @@
     .flex-container {
       flex-direction: column;
       align-items: center;
+
       input {
         width: 100%;
       }
@@ -49,13 +55,16 @@
 
 .morten {
   background-image: url('images/Morten Harket.png');
+
   .title {
-      text-align: start;
-      margin-bottom: 16px;
+    margin-bottom: 16px;
+    text-align: start;
   }
+
   .subscribers {
     margin-bottom: 48px;
   }
+
   .buttons-container {
     display: flex;
 
@@ -64,30 +73,35 @@
       width: 200px;
       height: 62px;
       padding: 20px 30px;
-      border-radius: 0;
       border: none;
+      border-radius: 0;
     }
+
     .img {
       position: absolute;
-      left: 32px;
       top: 20px;
+      left: 32px;
       width: 20px;
       height: 20px;
+
       svg {
         fill: $white-color;
       }
     }
+
     .text {
       position: absolute;
-      left: 66px;
       top: 20px;
+      left: 66px;
       font-size: 12.8px;
       text-transform: uppercase;
     }
+
     .btn-mix {
-      background: $purple-btn;
       margin-right: 24px;
+      background: $purple-btn;
     }
+
     .btn-fav {
       background: $red-btn;
     }
@@ -97,8 +111,10 @@
     .subscribers {
       font-size: 16px;
     }
+
     .buttons-container {
       flex-direction: column;
+
       .btn-mix {
         margin-bottom: 24px;
       }

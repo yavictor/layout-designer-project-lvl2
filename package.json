@@ -1,6 +1,15 @@
 {
-  "dependencies": {
+  "devDependencies": {
+    "htmlhint": "^0.9.9",
     "sass": "^1.35.1",
-    "surge": "^0.23.0"
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.0.4",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-rational-order-plugin": "^1.0.2",
+    "surge": "^0.21.7"
+  },
+  "dependencies": {
+    "stylelint-scss": "^3.19.0"
   }
 }

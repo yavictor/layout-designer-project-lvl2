@@ -3,9 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
   color: #cacaca;
   font-size: 18px;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
 }
 
@@ -20,8 +20,8 @@ body {
 
 section {
   padding-top: 100px;
-  background: #08020d;
   color: #fff;
+  background: #08020d;
 }
 section .title {
   text-align: center;
@@ -56,42 +56,42 @@ img {
   padding: 3rem 0 2rem;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+.footer a {
+  display: block;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+}
 .footer .links-container {
-  margin-bottom: 114px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 114px;
 }
 .footer .links-container .title {
   margin-bottom: 15px;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   text-transform: uppercase;
 }
 .footer .links-container .subscribe .flex-container {
-  width: 160px;
   display: flex;
   justify-content: space-between;
+  width: 160px;
 }
 .footer .links-container .subscribe .flex-container a {
   display: inline-block;
 }
-.footer a {
-  display: block;
-  font-size: 16px;
-  font-weight: normal;
-  text-decoration: none;
-}
 .footer .divider {
   position: absolute;
+  bottom: 113px;
   width: 100vw;
   height: 2px;
-  bottom: 113px;
   border: 1px solid #cacaca;
 }
 .footer .low-menu {
-  width: 438px;
   display: flex;
   justify-content: space-between;
+  width: 438px;
 }
 
 @media screen and (max-width: 768px) {
@@ -110,14 +110,14 @@ img {
   }
 
   .footer .links-container {
-    height: 520px;
     flex-direction: column;
     align-items: space-between;
+    height: 520px;
   }
   .footer .low-menu {
-    height: 180px;
     flex-direction: column;
     align-items: space-between;
+    height: 180px;
   }
   .footer .divider {
     bottom: 272px;
@@ -129,16 +129,15 @@ img {
   height: 25px;
 }
 .header .container {
-  margin-left: 119px;
   display: flex;
+  margin-left: 119px;
   text-transform: uppercase;
 }
 .header .container .main-menu {
-  display: block;
-  min-width: 91px;
-  text-decoration: none;
   display: flex;
   justify-content: space-between;
+  min-width: 91px;
+  text-decoration: none;
 }
 .header .container .logo {
   width: 16px;
@@ -150,39 +149,39 @@ img {
   line-height: 16px;
 }
 .header .container .flex-container {
+  display: flex;
+  justify-content: space-between;
   width: 1000px;
   margin-left: 91px;
-  display: flex;
-  justify-content: space-between;
 }
 .header .container .top-menu {
-  width: 311px;
   display: flex;
   justify-content: space-between;
+  width: 311px;
 }
 .header .container .search-bar .search-input {
   width: 248px;
   height: 25px;
-  background: #3C3B3D;
-  border-radius: 50px;
-  font-family: Arial;
   font-weight: normal;
   font-size: 13.3px;
+  font-family: Arial, sans-serif;
   line-height: 15px;
+  background: #3c3b3d;
+  border-radius: 50px;
 }
 @media (max-width: 768px) {
   .header .container {
+    flex-wrap: wrap;
     width: 100%;
     margin-left: 0;
-    flex-wrap: wrap;
   }
   .header .container .logo {
     margin-bottom: 17px;
   }
   .header .container .flex-container {
-    margin-left: 0;
-    width: 100%;
     flex-direction: column;
+    width: 100%;
+    margin-left: 0;
   }
   .header .container .top-menu {
     flex-direction: column;
@@ -194,10 +193,10 @@ img {
 
 .page-description {
   padding: 200px 0;
+  color: #fff;
   background-image: url("images/banner.png");
   background-position: center;
   background-size: cover;
-  color: #fff;
 }
 .page-description .title,
 .page-description .subtitle {
@@ -220,15 +219,15 @@ img {
 .page-description .form .flex-container input {
   min-width: 270px;
   min-height: 50px;
-  padding-left: 20px;
   margin-top: 17px;
   margin-bottom: 1.5rem;
+  padding-left: 20px;
+  font-size: 13.3px;
+  font-family: Arial, sans-serif;
+  line-height: 15px;
+  background: transparent;
   border: solid 2px #cacaca;
   border-radius: 3px;
-  background: transparent;
-  font-family: Arial;
-  font-size: 13.3px;
-  line-height: 15px;
 }
 @media (max-width: 768px) {
   .page-description .flex-container {
@@ -244,8 +243,8 @@ img {
   background-image: url("images/Morten Harket.png");
 }
 .morten .title {
-  text-align: start;
   margin-bottom: 16px;
+  text-align: start;
 }
 .morten .subscribers {
   margin-bottom: 48px;
@@ -258,13 +257,13 @@ img {
   width: 200px;
   height: 62px;
   padding: 20px 30px;
-  border-radius: 0;
   border: none;
+  border-radius: 0;
 }
 .morten .buttons-container .img {
   position: absolute;
-  left: 32px;
   top: 20px;
+  left: 32px;
   width: 20px;
   height: 20px;
 }
@@ -273,14 +272,14 @@ img {
 }
 .morten .buttons-container .text {
   position: absolute;
-  left: 66px;
   top: 20px;
+  left: 66px;
   font-size: 12.8px;
   text-transform: uppercase;
 }
 .morten .buttons-container .btn-mix {
-  background: #5328f1;
   margin-right: 24px;
+  background: #5328f1;
 }
 .morten .buttons-container .btn-fav {
   background: #95390c;
@@ -300,14 +299,14 @@ img {
 .btn {
   width: 100%;
   padding: 20px 30px;
-  border: 1px solid #fff;
-  border-radius: 5px;
   text-align: center;
   text-transform: upercase;
   text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
 }
 .btn-green {
-  background: #34C176;
+  background: #34c176;
 }
 
 .page-pricing .bg {
@@ -332,15 +331,16 @@ img {
   justify-content: space-between;
 }
 .page-pricing .items-container .pricing-item {
-  height: 615px;
-  width: 369px;
-  padding: 1.5rem 1.5rem 64px;
-  border-radius: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 369px;
+  height: 615px;
+  padding: 1.5rem 1.5rem 64px;
+  border-radius: 1rem;
 }
 .page-pricing .items-container .pricing-item-title {
+  font-weight: normal;
   text-transform: uppercase;
 }
 .page-pricing .items-container .pricing-item .pricing-value {
@@ -358,14 +358,14 @@ img {
   text-decoration: none;
 }
 .page-pricing .items-container .pricing-item .pricing-footer {
-  text-align: center;
   margin-top: 64px;
   font-size: 12.8px;
   line-height: 150%;
+  text-align: center;
 }
 .page-pricing-footer {
-  text-align: center;
   margin-top: 43px;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .page-pricing .items-container {
@@ -394,17 +394,17 @@ img {
 }
 .page-news .news-item .news-title {
   margin-bottom: 30px;
-  font-size: 30px;
   font-weight: normal;
+  font-size: 30px;
   text-transform: uppercase;
 }
 .page-news .news-item .news-footer {
   margin-top: 24px;
 }
 .page-news .news-item .news-footer .news-author {
-  width: 186px;
   display: flex;
   justify-content: space-between;
+  width: 186px;
   text-transform: uppercase;
 }
 .page-news .news-item .news-footer .news-author .avatar {
@@ -423,8 +423,8 @@ img {
   display: block;
   width: 135px;
   height: 53px;
-  padding: 16px 29px;
   margin-top: 64px;
+  padding: 16px 29px;
   font-size: 12.8px;
   text-transform: uppercase;
 }
@@ -450,8 +450,8 @@ img {
 }
 
 .page-app .about-app {
-  margin-top: 48px;
   display: flex;
+  margin-top: 48px;
 }
 .page-app .text-content {
   flex: 1;
@@ -464,14 +464,14 @@ img {
   width: 131px;
   height: 53px;
   padding: 16px 40px;
-  background: #95390C;
+  font-size: 12.8px;
+  background: #95390c;
   border: none;
   border-radius: 32px;
-  font-size: 12.8px;
 }
 .page-app .image {
-  text-align: center;
   flex: 1;
+  text-align: center;
 }
 @media (max-width: 768px) {
   .page-app .about-app {
@@ -503,9 +503,9 @@ img {
   gap: 15px;
 }
 .page-popular-track .tracks-container .popular-track .track-info img {
+  display: inline-block;
   width: 55px;
   height: 55px;
-  display: inline-block;
 }
 .page-popular-track .tracks-container .popular-track .track-info .text-container {
   display: flex;
@@ -514,8 +514,8 @@ img {
   font-size: 12.8px;
 }
 .page-popular-track .tracks-container .popular-track .track-info .text-container .track-title {
-  font-size: 12.8px;
   font-weight: bold;
+  font-size: 12.8px;
   text-transform: uppercase;
 }
 .page-popular-track .tracks-container .popular-track .duration {
@@ -532,9 +532,9 @@ img {
 }
 
 .page-discography .title {
+  margin-bottom: 48px;
   color: #fff;
   text-align: left;
-  margin-bottom: 48px;
 }
 .page-discography .discography-container {
   display: flex;
@@ -546,6 +546,7 @@ img {
   height: 250px;
 }
 .page-discography .discography-container .item-title {
+  color: #fff;
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
@@ -554,7 +555,7 @@ img {
   color: #fff;
 }
 @media (max-width: 768px) {
-  .page-discography img {
+  .page-discography .discography-container img {
     width: 137px;
     height: 137px;
   }
@@ -564,9 +565,9 @@ img {
   padding-bottom: 100px;
 }
 .page-similar .title {
+  margin-bottom: 48px;
   color: #fff;
   text-align: left;
-  margin-bottom: 48px;
 }
 .page-similar .artists-container {
   display: flex;
@@ -582,10 +583,10 @@ img {
   text-align: center;
 }
 .page-similar .artists-container .discography-info .item-title {
+  color: #fff;
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
-  color: #fff;
 }
 @media (max-width: 768px) {
   .page-similar img {

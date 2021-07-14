@@ -1,10 +1,12 @@
 .page-similar {
   padding-bottom: 100px;
+
   .title {
+    margin-bottom: 48px;
     color: $white-color;
     text-align: left;
-    margin-bottom: 48px;
   }
+
   .artists-container {
     display: flex;
     flex-wrap: wrap;
@@ -15,20 +17,25 @@
       height: 250px;
       border-radius: 50%;
     }
+
     .discography-info {
       text-align: center;
+
       .item-title {
+        color: $white-color;
         font-weight: bold;
         font-size: 18px;
         text-transform: capitalize;
-        color: $white-color;
       }
-    }    
+    }
   }
+
   @media (max-width: 768px) {
-    img {
-      width: 137px;
-      height: 137px;
+    .artists-container {
+      img {
+        width: 137px;
+        height: 137px;
+      }
     }
   }
 }

@@ -2,12 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
-  font-family: 'Roboto', sans-serif;
-  color: $main-text-color;;
+  color: $main-text-color;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  // background-color: $main-bg-color;
 }
 
 body {
@@ -21,8 +19,9 @@ body {
 
 section {
   padding-top: 100px;
-  background: $main-bg-color;
   color: $section-text-color;
+  background: $main-bg-color;
+
   .title {
     text-align: center;
   }
@@ -57,44 +56,51 @@ img {
   position: relative;
   padding: 3rem 0 2rem;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+
+  a {
+    display: block;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
   .links-container {
-    margin-bottom: 114px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 114px;
+
     .title {
       margin-bottom: 15px;
-      font-size: 18px;
       font-weight: bold;
+      font-size: 18px;
       text-transform: uppercase;
     }
+
     .subscribe {
       .flex-container {
-        width: 160px;
         display: flex;
         justify-content: space-between;
+        width: 160px;
+
         a {
           display: inline-block;
         }
       }
     }
   }
-  a {
-    display: block;
-    font-size: 16px;
-    font-weight: normal;
-    text-decoration: none;
-  }
+
   .divider {
     position: absolute;
+    bottom: 113px;
     width: 100vw;
     height: 2px;
-    bottom: 113px;
     border: 1px solid $main-text-color;
   }
+
   .low-menu {
-    width: 438px;
     display: flex;
     justify-content: space-between;
+    width: 438px;
   }
 }
 
@@ -112,20 +118,22 @@ img {
     margin: 0 auto;
     padding: 20px;
   }
+
   .footer {
     .links-container {
+      flex-direction: column;
+      align-items: space-between;
       height: 520px;
-      flex-direction: column;
-      align-items: space-between;
     }
+
     .low-menu {
-      height: 180px;
       flex-direction: column;
       align-items: space-between;
+      height: 180px;
     }
+
     .divider {
       bottom: 272px;
     }
   }
-
 }

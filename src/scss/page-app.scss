@@ -1,41 +1,42 @@
 .page-app {
-
   .about-app {
-  margin-top: 48px;
-  display: flex;
-
-  // column-count: 2;
-  // column-width: auto;
+    display: flex;
+    margin-top: 48px;
   }
+
   .text-content {
     flex: 1;
+
     .proposal {
       margin-bottom: 16px;
     }
+
     .download-btn {
       display: block;
       width: 131px;
       height: 53px;
       padding: 16px 40px;
-      background: #95390C;
+      font-size: 12.8px;
+      background: #95390c;
       border: none;
       border-radius: 32px;
-      font-size: 12.8px;
-  
     }
   }
+
   .image {
-    text-align: center;
     flex: 1;
+    text-align: center;
   }
 
   @media (max-width: 768px) {
     .about-app {
       flex-direction: column;
+
       .text-content {
         order: 1;
       }
-      .image{
+
+      .image {
         order: 0;
       }
     }
