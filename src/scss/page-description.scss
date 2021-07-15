@@ -58,7 +58,7 @@
   background-image: url('images/Morten Harket.png');
 
   .header {
-    top: -225px;
+    top: -200px;
 
     .main-menu .title {
       align-items: center;
@@ -117,6 +117,8 @@
   }
 
   @media (max-width: 768px) {
+    padding-top: 225px;
+
     .subscribers {
       font-size: 16px;
     }

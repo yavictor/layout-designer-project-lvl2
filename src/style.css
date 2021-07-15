@@ -84,7 +84,7 @@ img {
 .footer .divider {
   position: absolute;
   bottom: 113px;
-  width: 100vw;
+  width: 100%;
   height: 2px;
   border: 1px solid #cacaca;
 }
@@ -106,9 +106,12 @@ img {
   .container {
     width: 100%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
   }
 
+  .footer {
+    padding: 62px 0 48px;
+  }
   .footer .links-container {
     flex-direction: column;
     align-items: space-between;
@@ -176,6 +179,7 @@ img {
   font-family: Arial, sans-serif;
   line-height: 15px;
   background: #3c3b3d;
+  border: none;
   border-radius: 50px;
 }
 
@@ -209,8 +213,11 @@ img {
     text-decoration: none;
   }
   .header .main-flex-container .search-bar {
-    width: 100%;
     margin-top: 18px;
+    width: 90%;
+  }
+  .header .main-flex-container .search-bar .search-input {
+    width: 100%;
   }
 }
 .page-description {
@@ -266,7 +273,7 @@ img {
   background-image: url("images/Morten Harket.png");
 }
 .morten .header {
-  top: -225px;
+  top: -200px;
 }
 .morten .header .main-menu .title {
   align-items: center;
@@ -314,6 +321,9 @@ img {
   background: #95390c;
 }
 @media (max-width: 768px) {
+  .morten {
+    padding-top: 225px;
+  }
   .morten .subscribers {
     font-size: 16px;
   }
@@ -635,6 +645,10 @@ img {
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
+}
+.page-similar .artists-container .artist-info .item-subscribers {
+  color: #cacaca;
+  font-size: 16px;
 }
 @media (max-width: 768px) {
   .page-similar .artists-container .artist-item {

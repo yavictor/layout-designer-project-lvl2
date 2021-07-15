@@ -59,6 +59,7 @@
         font-family: Arial, sans-serif;
         line-height: 15px;
         background: #3c3b3d;
+        border: none;
         border-radius: 50px;
       }
     }
@@ -101,10 +102,11 @@
       }
 
       .search-bar {
-        width: 100%;
         margin-top: 18px;
-        .search-input {
+        width: 90%;
 
+        .search-input {
+          width: 100%;
         }
       }
     }
