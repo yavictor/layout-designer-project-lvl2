@@ -97,7 +97,6 @@
       width: 200px;
       height: 62px;
       padding: 20px 30px;
-      font-size: 12.8px;
       border: none;
       border-radius: 0;
     }
@@ -124,10 +123,12 @@
 
     .btn-mix {
       margin-right: 24px;
+      font-size: 12.8px;
       background: $purple-btn;
     }
 
     .btn-fav {
+      font-size: 12.8px;
       background: $red-btn;
     }
   }

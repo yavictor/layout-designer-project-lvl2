@@ -329,9 +329,11 @@ img {
 }
 .morten .buttons-container .btn-mix {
   margin-right: 24px;
+  font-size: 12.8px;
   background: #5328f1;
 }
 .morten .buttons-container .btn-fav {
+  font-size: 12.8px;
   background: #95390c;
 }
 @media (max-width: 768px) {
