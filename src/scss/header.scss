@@ -44,9 +44,11 @@
       display: flex;
       justify-content: space-between;
       width: 311px;
+      text-decoration: none;
 
       .menu-item {
         color: $secondary-text-color;
+        text-decoration: none;
       }
     }
 
@@ -102,8 +104,8 @@
       }
 
       .search-bar {
-        margin-top: 18px;
         width: 90%;
+        margin-top: 18px;
 
         .search-input {
           width: 100%;

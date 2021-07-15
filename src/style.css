@@ -167,9 +167,11 @@ img {
   display: flex;
   justify-content: space-between;
   width: 311px;
+  text-decoration: none;
 }
 .header .main-flex-container .top-menu .menu-item {
   color: #cacaca;
+  text-decoration: none;
 }
 .header .main-flex-container .search-bar .search-input {
   width: 248px;
@@ -213,8 +215,8 @@ img {
     text-decoration: none;
   }
   .header .main-flex-container .search-bar {
-    margin-top: 18px;
     width: 90%;
+    margin-top: 18px;
   }
   .header .main-flex-container .search-bar .search-input {
     width: 100%;
@@ -250,12 +252,21 @@ img {
   margin-top: 17px;
   margin-bottom: 1.5rem;
   padding-left: 20px;
+  color: #fff;
   font-size: 13.3px;
   font-family: Arial, sans-serif;
   line-height: 15px;
   background: transparent;
   border: solid 2px #cacaca;
   border-radius: 3px;
+}
+.page-description .form .btn-green {
+  font-weight: normal;
+  font-size: 13.3px;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  line-height: 15px;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .page-description .flex-container {
@@ -268,14 +279,17 @@ img {
 }
 
 .morten {
-  padding-top: 250px;
-  padding-bottom: 223px;
+  height: 713px;
   background-image: url("images/Morten Harket.png");
 }
 .morten .header {
-  top: -200px;
+  top: -175px;
+}
+.morten .header .main-menu {
+  height: 24px;
 }
 .morten .header .main-menu .title {
+  margin: 0;
   align-items: center;
 }
 .morten .title {
@@ -322,7 +336,13 @@ img {
 }
 @media (max-width: 768px) {
   .morten {
-    padding-top: 225px;
+    height: 730px;
+  }
+  .morten .header {
+    top: -250px;
+  }
+  .morten .title {
+    margin-top: 75px;
   }
   .morten .subscribers {
     font-size: 16px;
@@ -382,14 +402,18 @@ img {
   font-weight: normal;
   text-transform: uppercase;
 }
-.page-pricing .items-container .pricing-item .pricing-value {
+.page-pricing .items-container .pricing-item .price-container {
+  display: flex;
   margin-top: 200px;
+}
+.page-pricing .items-container .pricing-item .price-container .pricing-value {
+  margin-right: 16px;
   font-size: 64px;
   line-height: 100%;
 }
-.page-pricing .items-container .pricing-item .pricing-value .currency {
+.page-pricing .items-container .pricing-item .price-container .currency {
   font-size: 32px;
-  line-height: 1em;
+  line-height: 150%;
 }
 .page-pricing .items-container .pricing-item .checkout {
   display: block;
@@ -413,6 +437,9 @@ img {
   }
   .page-pricing .items-container .pricing-item {
     margin-bottom: 27px;
+  }
+  .page-pricing .items-container .pricing-item-title {
+    font-size: 16px;
   }
 }
 
@@ -438,7 +465,7 @@ img {
   margin-bottom: 30px;
   font-weight: normal;
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .page-news .news-item .news-footer {
   margin-top: 24px;
@@ -456,19 +483,25 @@ img {
 .page-news .news-item .news-footer .news-author .source {
   margin: 0 16px;
   color: #f89202;
-  font-size: 12px;
+  font-size: 12.8px;
 }
 .page-news .news-item .news-footer .news-author .date {
-  font-size: 12px;
+  color: #cacaca;
+  font-size: 12.8px;
 }
 .page-news .news-item .btn {
   display: block;
   width: 135px;
   height: 53px;
   margin-top: 64px;
-  padding: 16px 29px;
+  padding: 16px 30px;
+  color: #cacaca;
+  font-weight: normal;
   font-size: 12.8px;
+  font-style: normal;
+  white-space: nowrap;
   text-transform: uppercase;
+  border-color: #cacaca;
 }
 @media (max-width: 768px) {
   .page-news .news-item {

@@ -39,14 +39,19 @@
         text-transform: uppercase;
       }
 
-      .pricing-value {
+      .price-container {
+        display: flex;
         margin-top: 200px;
-        font-size: 64px;
-        line-height: 100%;
+
+        .pricing-value {
+          margin-right: 16px;
+          font-size: 64px;
+          line-height: 100%;
+        }
 
         .currency {
           font-size: 32px;
-          line-height: 1em;
+          line-height: 150%;
         }
       }
 
@@ -77,6 +82,9 @@
 
       .pricing-item {
         margin-bottom: 27px;
+        &-title {
+          font-size: 16px;
+        }
       }
     }
   }

@@ -30,6 +30,7 @@
         margin-top: 17px;
         margin-bottom: 1.5rem;
         padding-left: 20px;
+        color: $main-text-color;
         font-size: 13.3px;
         font-family: Arial, sans-serif;
         line-height: 15px;
@@ -37,6 +38,14 @@
         border: solid 2px $secondary-text-color;
         border-radius: 3px;
       }
+    }
+    .btn-green {
+      font-weight: normal;
+      font-size: 13.3px;
+      font-family: Arial, sans-serif;
+      font-style: normal;
+      line-height: 15px;
+      text-transform: uppercase;
     }
   }
 
@@ -53,16 +62,21 @@
 }
 
 .morten {
-  padding-top: 250px;
-  padding-bottom: 223px;
+  height: 713px;
   background-image: url('images/Morten Harket.png');
 
   .header {
-    top: -200px;
+    top: -175px;
 
-    .main-menu .title {
-      align-items: center;
+    .main-menu {
+      height: 24px;
+
+      .title {
+        margin: 0;
+        align-items: center;
+      }
     }
+
   }
 
   .title {
@@ -117,7 +131,15 @@
   }
 
   @media (max-width: 768px) {
-    padding-top: 225px;
+    height: 730px;
+    
+    .header {
+      top: -250px;
+    }
+
+    .title {
+      margin-top: 75px;
+    }
 
     .subscribers {
       font-size: 16px;
