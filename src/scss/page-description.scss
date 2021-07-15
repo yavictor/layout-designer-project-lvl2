@@ -124,11 +124,13 @@
     .btn-mix {
       margin-right: 24px;
       font-size: 12.8px;
+      text-transform: uppercase;
       background: $purple-btn;
     }
 
     .btn-fav {
       font-size: 12.8px;
+      text-transform: uppercase;
       background: $red-btn;
     }
   }
