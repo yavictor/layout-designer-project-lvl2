@@ -20,13 +20,22 @@
       font-size: 18px;
       text-transform: capitalize;
     }
+
+    .item-year {
+      color: $secondary-text-color;
+      font-size: 16px;
+    }
   }
 
   @media (max-width: 768px) {
     .discography-container {
-      img {
-        width: 137px;
-        height: 137px;
+      .discography-item {
+        width: 138px;
+  
+        img {
+          width: 137px;
+          height: 137px;
+        }
       }
     }
   }

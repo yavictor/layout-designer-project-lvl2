@@ -31,9 +31,13 @@
 
   @media (max-width: 768px) {
     .artists-container {
-      img {
+      .artist-item {
         width: 137px;
-        height: 137px;
+
+        img {
+          width: 137px;
+          height: 137px;
+        }
       }
     }
   }

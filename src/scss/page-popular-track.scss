@@ -34,12 +34,22 @@
             font-size: 12.8px;
             text-transform: uppercase;
           }
+
+          .track-performer {
+            color: $secondary-text-color;
+            font-weight: normal;
+            font-size: 12.8px;
+            text-transform: capitalize;
+          }
         }
       }
 
       .duration {
         display: flex;
         align-items: center;
+        color: $secondary-text-color;
+        font-weight: normal;
+        font-size: 12.8px;
       }
     }
   }
