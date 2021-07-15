@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #cacaca;
+  color: #fff;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -14,13 +14,13 @@ body {
 }
 
 .container {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
 }
 
 section {
   padding-top: 100px;
-  color: #fff;
   background: #08020d;
 }
 section .title {
@@ -125,41 +125,50 @@ img {
 }
 .header {
   position: absolute;
-  top: 25px;
+  top: -175px;
   height: 25px;
-}
-.header .container {
-  display: flex;
-  margin-left: 119px;
   text-transform: uppercase;
 }
-.header .container .main-menu {
+.header .flex-container {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.header .flex-container .main-menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   min-width: 91px;
   text-decoration: none;
 }
-.header .container .logo {
+.header .flex-container .main-menu .title {
+  color: #cacaca;
+}
+.header .flex-container .logo {
   width: 16px;
   height: 16px;
 }
-.header .container .title,
-.header .container .menu-item {
+.header .flex-container .title,
+.header .flex-container .menu-item {
   font-size: 10px;
   line-height: 16px;
 }
-.header .container .flex-container {
+.header .flex-container .menu-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 1000px;
   margin-left: 91px;
 }
-.header .container .top-menu {
+.header .flex-container .top-menu {
   display: flex;
   justify-content: space-between;
   width: 311px;
 }
-.header .container .search-bar .search-input {
+.header .flex-container .top-menu .menu-item {
+  color: #cacaca;
+}
+.header .flex-container .search-bar .search-input {
   width: 248px;
   height: 25px;
   font-weight: normal;
@@ -193,7 +202,6 @@ img {
 
 .page-description {
   padding: 200px 0;
-  color: #fff;
   background-image: url("images/banner.png");
   background-position: center;
   background-size: cover;
@@ -240,13 +248,21 @@ img {
 }
 
 .morten {
+  padding-top: 250px;
+  padding-bottom: 223px;
   background-image: url("images/Morten Harket.png");
 }
+.morten .header {
+  top: -225px;
+}
+.morten .header .main-menu .title {
+  align-items: center;
+}
 .morten .title {
-  margin-bottom: 16px;
   text-align: start;
 }
 .morten .subscribers {
+  margin-top: 16px;
   margin-bottom: 48px;
 }
 .morten .buttons-container {
@@ -392,6 +408,9 @@ img {
 .page-news .news-item .text-container {
   width: 575px;
 }
+.page-news .news-item .text-container .news-text {
+  color: #cacaca;
+}
 .page-news .news-item .news-title {
   margin-bottom: 30px;
   font-weight: normal;
@@ -449,6 +468,9 @@ img {
   }
 }
 
+.page-app .container {
+  padding-bottom: 100px;
+}
 .page-app .about-app {
   display: flex;
   margin-top: 48px;
@@ -458,6 +480,8 @@ img {
 }
 .page-app .text-content .proposal {
   margin-bottom: 16px;
+  color: #cacaca;
+  font-size: 16px;
 }
 .page-app .text-content .download-btn {
   display: block;
@@ -533,7 +557,6 @@ img {
 
 .page-discography .title {
   margin-bottom: 48px;
-  color: #fff;
   text-align: left;
 }
 .page-discography .discography-container {
@@ -544,15 +567,12 @@ img {
 .page-discography .discography-container img {
   width: 250px;
   height: 250px;
+  margin-bottom: 18px;
 }
 .page-discography .discography-container .item-title {
-  color: #fff;
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
-}
-.page-discography .discography-container .item-year {
-  color: #fff;
 }
 @media (max-width: 768px) {
   .page-discography .discography-container img {
@@ -566,7 +586,6 @@ img {
 }
 .page-similar .title {
   margin-bottom: 48px;
-  color: #fff;
   text-align: left;
 }
 .page-similar .artists-container {
@@ -577,19 +596,19 @@ img {
 .page-similar .artists-container img {
   width: 250px;
   height: 250px;
+  margin-bottom: 17px;
   border-radius: 50%;
 }
-.page-similar .artists-container .discography-info {
+.page-similar .artists-container .artist-info {
   text-align: center;
 }
-.page-similar .artists-container .discography-info .item-title {
-  color: #fff;
+.page-similar .artists-container .artist-info .item-title {
   font-weight: bold;
   font-size: 18px;
   text-transform: capitalize;
 }
 @media (max-width: 768px) {
-  .page-similar img {
+  .page-similar .artists-container img {
     width: 137px;
     height: 137px;
   }

@@ -17,6 +17,12 @@
       width: 575px;
     }
 
+    .text-container {
+      .news-text {
+        color: $secondary-text-color;
+      }
+    }
+
     .news-title {
       margin-bottom: 30px;
       font-weight: normal;

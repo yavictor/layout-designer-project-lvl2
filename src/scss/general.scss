@@ -13,13 +13,13 @@ body {
 }
 
 .container {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
 }
 
 section {
   padding-top: 100px;
-  color: $section-text-color;
   background: $main-bg-color;
 
   .title {
@@ -47,7 +47,6 @@ h3 {
 }
 
 img {
-  //background-image: url('...');
   background-position: center;
   background-size: cover;
 }
@@ -94,7 +93,7 @@ img {
     bottom: 113px;
     width: 100vw;
     height: 2px;
-    border: 1px solid $main-text-color;
+    border: 1px solid $secondary-text-color;
   }
 
   .low-menu {

@@ -1,7 +1,6 @@
 .page-discography {
   .title {
     margin-bottom: 48px;
-    color: $white-color;
     text-align: left;
   }
 
@@ -13,17 +12,13 @@
     img {
       width: 250px;
       height: 250px;
+      margin-bottom: 18px;
     }
 
     .item-title {
-      color: $white-color;
       font-weight: bold;
       font-size: 18px;
       text-transform: capitalize;
-    }
-
-    .item-year {
-      color: $white-color;
     }
   }
 

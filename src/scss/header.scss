@@ -1,18 +1,24 @@
 .header {
   position: absolute;
-  top: 25px;
+  top: -175px;
   height: 25px;
-
-  .container {
+  text-transform: uppercase;
+  
+  .flex-container {  
     display: flex;
-    margin-left: 119px;
-    text-transform: uppercase;
+    align-items: center;
+    text-transform: uppercase;  
 
     .main-menu {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       min-width: 91px;
       text-decoration: none;
+
+      .title {
+        color: $secondary-text-color;
+      }
     }
 
     .logo {
@@ -26,9 +32,10 @@
       line-height: 16px;
     }
 
-    .flex-container {
+    .menu-container {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       width: 1000px;
       margin-left: 91px;
     }
@@ -37,6 +44,10 @@
       display: flex;
       justify-content: space-between;
       width: 311px;
+
+      .menu-item {
+        color: $secondary-text-color;
+      }
     }
 
     .search-bar {

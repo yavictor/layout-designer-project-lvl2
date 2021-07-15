@@ -3,7 +3,6 @@
 
   .title {
     margin-bottom: 48px;
-    color: $white-color;
     text-align: left;
   }
 
@@ -15,14 +14,14 @@
     img {
       width: 250px;
       height: 250px;
+      margin-bottom: 17px;
       border-radius: 50%;
     }
 
-    .discography-info {
+    .artist-info {
       text-align: center;
 
       .item-title {
-        color: $white-color;
         font-weight: bold;
         font-size: 18px;
         text-transform: capitalize;
