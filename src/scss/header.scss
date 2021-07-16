@@ -38,17 +38,16 @@
       align-items: center;
       width: 1000px;
       margin-left: 91px;
-    }
 
-    .top-menu {
-      display: flex;
-      justify-content: space-between;
-      width: 311px;
-      text-decoration: none;
-
-      .menu-item {
-        color: $secondary-text-color;
+      .top-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 311px;
         text-decoration: none;
+        a {
+          color: $secondary-text-color;
+          text-decoration: none;
+        }
       }
     }
 
