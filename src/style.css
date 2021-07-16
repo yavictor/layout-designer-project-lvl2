@@ -196,6 +196,7 @@ img {
 
 @media (max-width: 768px) {
   .header {
+    top: -225px;
     width: 100%;
   }
   .header .main-flex-container {
@@ -279,6 +280,9 @@ img {
   text-transform: uppercase;
 }
 @media (max-width: 768px) {
+  .page-description {
+    padding-top: 250px;
+  }
   .page-description .flex-container {
     flex-direction: column;
     align-items: center;
@@ -290,20 +294,20 @@ img {
 
 .morten {
   height: 713px;
+  padding-top: 250px;
   background-image: url("images/Morten Harket.png");
 }
 .morten .header {
-  top: -175px;
+  top: -225px;
 }
 .morten .header .main-menu {
   height: 24px;
 }
 .morten .header .main-menu .title {
-  margin: 0;
   align-items: center;
+  margin: 0;
 }
 .morten .main-title {
-  padding-top: 50px;
   text-align: start;
 }
 .morten .subscribers {
@@ -319,7 +323,6 @@ img {
   height: 62px;
   padding: 20px 30px;
   border: none;
-  border-radius: 0;
 }
 .morten .buttons-container .img {
   position: absolute;
@@ -352,12 +355,11 @@ img {
 @media (max-width: 768px) {
   .morten {
     height: 730px;
+    padding-top: 225px;
+    padding-bottom: 225px;
   }
   .morten .header {
     top: -210px;
-  }
-  .morten .title {
-    margin-top: 25px;
   }
   .morten .subscribers {
     font-size: 16px;
@@ -584,6 +586,7 @@ img {
 
 .page-popular-track .title {
   margin-bottom: 48px;
+  text-align: left;
 }
 .page-popular-track .tracks-container {
   display: grid;
