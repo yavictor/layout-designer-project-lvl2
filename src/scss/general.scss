@@ -16,6 +16,7 @@ body {
   position: relative;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .main {
@@ -24,9 +25,6 @@ body {
 }
 
 section {
-  padding-top: 100px;
-  // background: $main-bg-color;
-
   .title {
     text-align: center;
   }
@@ -71,7 +69,7 @@ img {
   .links-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 114px;
+    margin-bottom: 115px;
     column-gap: 40px;
     row-gap: 2.5rem;
     &-item {
@@ -138,15 +136,20 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    padding-top: 100px;
   }
 
   .footer {
     padding: 62px 0 48px;
 
+    .container {
+      padding-top: 0;
+    }
+
     .links-container {
       flex-direction: column;
       align-items: space-between;
-      height: 520px;
+      height: auto;
     }
 
     .low-menu {

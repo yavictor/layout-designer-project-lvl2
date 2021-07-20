@@ -17,6 +17,7 @@ body {
   position: relative;
   width: 1200px;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
 .main {
@@ -24,9 +25,6 @@ body {
   background: #08020d;
 }
 
-section {
-  padding-top: 100px;
-}
 section .title {
   text-align: center;
 }
@@ -69,7 +67,7 @@ img {
 .footer .links-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 114px;
+  margin-bottom: 115px;
   column-gap: 40px;
   row-gap: 2.5rem;
 }
@@ -125,15 +123,19 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    padding-top: 100px;
   }
 
   .footer {
     padding: 62px 0 48px;
   }
+  .footer .container {
+    padding-top: 0;
+  }
   .footer .links-container {
     flex-direction: column;
     align-items: space-between;
-    height: 520px;
+    height: auto;
   }
   .footer .low-menu {
     flex-direction: column;
@@ -232,6 +234,8 @@ img {
   }
   .header .main-flex-container .menu-container .top-menu {
     flex-direction: column;
+    align-items: start;
+    height: auto;
   }
   .header .main-flex-container .menu-container .top-menu a {
     text-decoration: none;
@@ -372,6 +376,9 @@ img {
     height: 730px;
     padding-top: 225px;
     padding-bottom: 225px;
+  }
+  .morten .container {
+    padding-top: 0;
   }
   .morten .header {
     top: -210px;

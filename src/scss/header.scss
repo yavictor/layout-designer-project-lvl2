@@ -100,6 +100,9 @@
 
         .top-menu {
           flex-direction: column;
+          align-items: start;
+          height: auto;
+
           a {
             text-decoration: none;
           }
