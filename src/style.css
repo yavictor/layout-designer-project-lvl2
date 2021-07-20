@@ -302,6 +302,9 @@ img {
   .page-description {
     padding-top: 250px;
   }
+  .page-description .container {
+    padding-top: 0;
+  }
   .page-description .flex-container {
     flex-direction: column;
     align-items: center;
@@ -692,9 +695,6 @@ img {
   }
 }
 
-.page-similar {
-  padding-bottom: 100px;
-}
 .page-similar .title {
   margin-bottom: 48px;
   text-align: left;
