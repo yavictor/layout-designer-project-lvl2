@@ -17,7 +17,6 @@ body {
   position: relative;
   width: 1200px;
   margin: 0 auto;
-  padding-top: 100px;
 }
 
 .main {
@@ -27,6 +26,10 @@ body {
 
 section .title {
   text-align: center;
+}
+
+section + .container {
+  padding: 100px 20px 0;
 }
 
 h1,
@@ -123,7 +126,6 @@ img {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    padding-top: 100px;
   }
 
   .footer {
@@ -302,9 +304,6 @@ img {
   .page-description {
     padding-top: 250px;
   }
-  .page-description .container {
-    padding-top: 0;
-  }
   .page-description .flex-container {
     flex-direction: column;
     align-items: center;
@@ -379,9 +378,6 @@ img {
     height: 730px;
     padding-top: 225px;
     padding-bottom: 225px;
-  }
-  .morten .container {
-    padding-top: 0;
   }
   .morten .header {
     top: -210px;
