@@ -18,9 +18,14 @@ body {
   margin: 0 auto;
 }
 
+.main {
+  padding-bottom: 100px;
+  background: $main-bg-color;
+}
+
 section {
   padding-top: 100px;
-  background: $main-bg-color;
+  // background: $main-bg-color;
 
   .title {
     text-align: center;
@@ -67,7 +72,8 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 114px;
-
+    column-gap: 1.875rem;
+    row-gap: 2.5rem;
 
     .title {
       margin-bottom: 15px;
