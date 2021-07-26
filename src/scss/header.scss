@@ -73,7 +73,7 @@
 @media (max-width: 768px) {
   .header {
     top: -225px;
-    width: 100%;
+    // width: 100%;
 
     .main-flex-container {
       flex-direction: column;
@@ -110,7 +110,7 @@
       }
 
       .search-bar {
-        width: 90%;
+        width: 111%;
         margin-top: 18px;
 
         .search-input {

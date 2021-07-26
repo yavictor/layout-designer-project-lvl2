@@ -19,6 +19,10 @@ body {
   margin: 0 auto;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
 .main {
   padding-bottom: 100px;
   background: #08020d;
@@ -26,10 +30,6 @@ body {
 
 section .title {
   text-align: center;
-}
-
-section + .container {
-  padding: 100px 20px 0;
 }
 
 h1,
@@ -78,7 +78,7 @@ img {
   width: 100%;
 }
 .footer .links-container .title {
-  margin-bottom: 15px;
+  margin-bottom: 16px;
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
@@ -106,10 +106,10 @@ img {
 }
 .footer .low-menu {
   display: flex;
-  justify-content: space-between;
-  width: 438px;
+  align-items: center;
 }
 .footer .low-menu a {
+  margin-right: 16px;
   color: #e0e0e0;
 }
 
@@ -124,12 +124,11 @@ img {
 
   .container {
     width: 100%;
-    margin: 0 auto;
     padding: 0 20px;
   }
 
   .footer {
-    padding: 62px 0 48px;
+    padding: 62px 0 32px;
   }
   .footer .container {
     padding-top: 0;
@@ -141,11 +140,21 @@ img {
   }
   .footer .low-menu {
     flex-direction: column;
-    align-items: space-between;
-    height: 180px;
+    align-items: unset;
+  }
+  .footer .low-menu a {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
   }
   .footer .divider {
     bottom: 270px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .container {
+    width: unset;
+    max-width: 1200px;
   }
 }
 .header {
@@ -213,7 +222,6 @@ img {
 @media (max-width: 768px) {
   .header {
     top: -225px;
-    width: 100%;
   }
   .header .main-flex-container {
     flex-direction: column;
@@ -243,7 +251,7 @@ img {
     text-decoration: none;
   }
   .header .main-flex-container .search-bar {
-    width: 90%;
+    width: 111%;
     margin-top: 18px;
   }
   .header .main-flex-container .search-bar .search-input {
@@ -437,7 +445,9 @@ img {
   border-radius: 1rem;
 }
 .page-pricing .items-container .pricing-item-title {
+  width: 100%;
   font-weight: normal;
+  text-align: center;
   text-transform: uppercase;
 }
 .page-pricing .items-container .pricing-item .price-container {
@@ -533,7 +543,7 @@ img {
   display: block;
   width: 135px;
   height: 53px;
-  margin-top: 64px;
+  margin-top: 48px;
   padding: 16px 30px;
   color: #cacaca;
   font-weight: normal;

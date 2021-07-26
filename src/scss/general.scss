@@ -18,6 +18,10 @@ body {
   margin: 0 auto;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
 .main {
   padding-bottom: 100px;
   background: $main-bg-color;
@@ -29,9 +33,9 @@ section {
   }
 }
 
-section + .container {
-  padding: 100px 20px 0;
-}
+// section + .container {
+//   padding: 100px 20px 0;
+// }
 
 h1,
 h2 {
@@ -80,7 +84,7 @@ img {
     }
 
     .title {
-      margin-bottom: 15px;
+      margin-bottom: 16px;
       font-weight: bold;
       font-size: 18px;
       text-transform: uppercase;
@@ -117,10 +121,10 @@ img {
 
   .low-menu {
     display: flex;
-    justify-content: space-between;
-    width: 438px;
+    align-items: center;
 
     a {
+      margin-right: 16px;
       color: $light-grey;
     }
   }
@@ -137,12 +141,11 @@ img {
 
   .container {
     width: 100%;
-    margin: 0 auto;
     padding: 0 20px;
   }
 
   .footer {
-    padding: 62px 0 48px;
+    padding: 62px 0 32px;
 
     .container {
       padding-top: 0;
@@ -156,12 +159,24 @@ img {
 
     .low-menu {
       flex-direction: column;
-      align-items: space-between;
-      height: 180px;
+      align-items: unset;
+
+      a {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+      }
     }
 
     .divider {
       bottom: 270px;
     }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    width: unset;
+    max-width: 1200px;
   }
 }
