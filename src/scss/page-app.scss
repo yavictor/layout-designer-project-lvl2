@@ -33,6 +33,7 @@
   @media (max-width: 768px) {
     .about-app {
       flex-direction: column;
+      row-gap: 16px;
 
       .text-content {
         order: 1;

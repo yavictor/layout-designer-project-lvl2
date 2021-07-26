@@ -135,6 +135,7 @@ img {
   }
   .footer .links-container {
     flex-direction: column;
+    row-gap: 30px;
     align-items: space-between;
     height: auto;
   }
@@ -312,12 +313,17 @@ img {
   .page-description {
     padding-top: 250px;
   }
-  .page-description .flex-container {
+  .page-description .form-title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .page-description .form .flex-container {
     flex-direction: column;
     align-items: center;
   }
-  .page-description .flex-container input {
+  .page-description .form .flex-container input {
     width: 100%;
+    margin: 0 0 24px;
   }
 }
 
@@ -603,6 +609,7 @@ img {
 @media (max-width: 768px) {
   .page-app .about-app {
     flex-direction: column;
+    row-gap: 16px;
   }
   .page-app .about-app .text-content {
     order: 1;
