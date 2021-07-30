@@ -15,7 +15,7 @@ body {
 
 .container {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -36,7 +36,8 @@ body {
 }
 
 .main {
-  background: #08020d;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .body {

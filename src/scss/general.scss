@@ -14,7 +14,7 @@ body {
 
 .container {
   position: relative;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -34,9 +34,11 @@ body {
   margin-bottom: 100px;
 }
 
-// .main {
-//   background: $main-bg-color;
-// }
+.main {
+  // background: $main-bg-color;
+  max-width: 1240px;
+  margin: 0 auto;
+}
 
 .body {
   background: $main-bg-color;
