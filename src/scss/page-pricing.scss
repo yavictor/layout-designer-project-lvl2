@@ -36,6 +36,7 @@
 
       &-title {
         width: 100%;
+        margin-bottom: 200px;
         font-weight: normal;
         text-align: center;
         text-transform: uppercase;
@@ -43,7 +44,8 @@
 
       .price-container {
         display: flex;
-        margin-top: 200px;
+        justify-content: center;
+        width: 100%;
 
         .pricing-value {
           margin-right: 16px;

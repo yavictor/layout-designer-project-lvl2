@@ -35,11 +35,6 @@ body {
   margin-bottom: 100px;
 }
 
-.main {
-  width: 1240px;
-  margin: 0 auto;
-}
-
 .body {
   background: #08020d;
 }
@@ -74,7 +69,7 @@ img {
 
 .footer {
   position: relative;
-  padding: 3rem 0 2rem;
+  padding: 52px 0 49px;
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .footer a {
@@ -468,13 +463,15 @@ img {
 }
 .page-pricing .items-container .pricing-item-title {
   width: 100%;
+  margin-bottom: 200px;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
 }
 .page-pricing .items-container .pricing-item .price-container {
   display: flex;
-  margin-top: 200px;
+  justify-content: center;
+  width: 100%;
 }
 .page-pricing .items-container .pricing-item .price-container .pricing-value {
   margin-right: 16px;
@@ -621,6 +618,9 @@ img {
 .page-app .image {
   flex: 1;
   text-align: center;
+}
+.page-app .image img {
+  height: 100%;
 }
 @media (max-width: 768px) {
   .page-app .about-app {
